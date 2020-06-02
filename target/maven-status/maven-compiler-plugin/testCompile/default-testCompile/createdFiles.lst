@@ -1,0 +1,8 @@
+com\gurudemo\pageObjects\AddCustomer.class
+com\gurudemo\utilities\XLUtils.class
+com\gurudemo\testcases\TC_AddCustomer_002.class
+com\gurudemo\utilities\ReadConfig.class
+com\gurudemo\utilities\Reporting.class
+com\gurudemo\testcases\TC_LoginTest_001.class
+com\gurudemo\pageObjects\LoginPage.class
+com\gurudemo\testcases\BaseClass.class

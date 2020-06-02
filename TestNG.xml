@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ohrm">
+	<listeners>
+		<listener class-name="com.gurudemo.utilities.Reporting">
+		</listener>
+	</listeners>
+	
+	
+	<!-- <test name="FirefoxFramework">
+		<parameter name="browser" value="firefox">
+		</parameter>
+		<classes>
+			<class name="com.gurudemo.testcases.TC_LoginTest_001" />
+		</classes>
+	</test> -->
+
+	<test name="ChromeFramework">
+		<parameter name="browser" value="chrome">
+		</parameter>
+		<classes>
+			 <class name="com.gurudemo.testcases.TC_LoginTest_001" />
+			<class name="com.gurudemo.testcases.TC_AddCustomer_002" /> 
+		</classes>
+	</test>
+
+	<!-- <test name="IEFramework">
+		<parameter name="browser" value="ie">
+		</parameter>
+		<classes>
+			<class name="com.gurudemo.testcases.TC_LoginTest_001" />
+		</classes>
+	</test> -->
+	
+</suite>

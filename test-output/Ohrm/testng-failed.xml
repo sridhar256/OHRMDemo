@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ohrm]">
+  <listeners>
+    <listener class-name="com.gurudemo.utilities.Reporting"/>
+  </listeners>
+  <test name="ChromeFramework(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.gurudemo.testcases.TC_AddCustomer_002">
+        <methods>
+          <include name="AddCustomerTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.gurudemo.testcases.TC_AddCustomer_002 -->
+    </classes>
+  </test> <!-- ChromeFramework(failed) -->
+</suite> <!-- Failed suite [Ohrm] -->
