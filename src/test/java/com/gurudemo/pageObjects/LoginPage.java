@@ -23,6 +23,11 @@ public class LoginPage {
 	@FindBy(id = "btnLogin")
 	WebElement Login;
 	
+	
+	
+	
+	
+	
 	public void enterTextOnUsername(String username) {
 		Username.sendKeys(username);
 	}
